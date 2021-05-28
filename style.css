@@ -1,8 +1,20 @@
-.body_background 
-{
+.body_background {
     background-image: url("bg1.jpg");
     background-position: center;
     background-size: cover;
+}
+span {
+	margin-top: 10px;
+}
+#btn-btn {
+   height: 30px;
+}
+#drpdwn {
+	height: 25px;
+	margin-top: 10px;
+}
+body {
+	color: white;
 }
 #myCanvas
 {
@@ -10,11 +22,16 @@
     background-color: white; 
     border-style:ridge;
 }
-
+.line {
+	background-color: white;
+	height: 5px;
+	margin: 10px;
+}
 h2
 {
 	border-radius: 10px;
 	width: 600px;
+	color: white;
 	padding: 5px;
  }
 h3
